@@ -1,0 +1,21 @@
+{
+  "parserOptions": {
+    "parser": "babel-eslint",
+    "sourceType": "module",
+    "allowImportExportEverywhere": true
+  },
+  "extends": [
+    "plugin:vue/essential",
+    "eslint:recommended"
+  ],
+  "rules": {
+      "semi": 0,
+      "no-console": "off",
+      "space-before-function-paren": "off",
+      "vue/html-self-closing": "off",
+      "comma-dangle": "off",
+      "vue/max-attributes-per-line": "off",
+      "vue/attributes-order": "off",
+      "no-new": "off"
+  }
+}
